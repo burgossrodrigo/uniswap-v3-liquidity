@@ -4,6 +4,10 @@
   "main": "index.js",
   "author": "Rodrigo Burgos <rodrigoburgos@live.com>",
   "license": "MIT",
+  "scripts": {
+    "build": "npx typechain --target=ethers-v6",
+    "start": "npx ts-node index.ts"
+  },
   "dependencies": {
     "@typechain/ethers-v6": "^0.5.1",
     "dotenv": "^16.4.5",
