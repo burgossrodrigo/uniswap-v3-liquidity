@@ -1,0 +1,15 @@
+{
+  "name": "uniswap-v3-liquidity",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Rodrigo Burgos <rodrigoburgos@live.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@typechain/ethers-v6": "^0.5.1",
+    "dotenv": "^16.4.5",
+    "ethers": "^6.12.1",
+    "ts-node": "^10.9.2",
+    "typechain": "^8.3.2",
+    "typescript": "^5.4.5"
+  }
+}
